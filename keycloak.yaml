@@ -17,7 +17,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: keycloak
-  namespace: investment-test
+  namespace: default
   labels:
     app: keycloak
 spec:
